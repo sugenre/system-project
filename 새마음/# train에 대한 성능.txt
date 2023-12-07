@@ -1,0 +1,111 @@
+# train에 대한 성능
+
+X_train = y_pred
+y_train = y_true
+
+
+#test에 대한 성능
+X_test = y_pred
+y_val = y_true
+
+
+'friedman_mse', 'squared_error', 'poisson', 'absolute_error'
+
+
+
+
+<train_전체데이터>
+
+#'squared_error'
+Train rmse: 23.55997611690441
+Validation rmse: 23.016331238486213
+
+훈련 세트 정확도 (r2): 0.889
+테스트 세트 정확도 (r2): 0.864
+
+#'friedman_mse'
+Train rmse: 23.55997611690441
+Validation rmse: 23.016331238486213
+
+훈련 세트 정확도 (r2): 0.889
+테스트 세트 정확도 (r2): 0.864
+
+#poisson
+
+Train rmse: 26.097296577293516
+Validation rmse: 23.090040399050938
+
+훈련 세트 정확도 (r2): 0.864
+테스트 세트 정확도 (r2): 0.863
+
+
+
+
+'friedman_mse', 'squared_error', 'poisson', 'absolute_error'
+<train_옵션별>
+
+#'absolute_error'
+Train rmse: 40.105964254872
+Validation rmse: 79.27152196130477
+
+훈련 세트 정확도 (r2): 0.934
+테스트 세트 정확도 (r2): 0.784
+
+
+#friedman_mse
+Train rmse: 37.349230610657315
+Validation rmse: 80.98206386299346
+
+훈련 세트 정확도 (r2): 0.943
+테스트 세트 정확도 (r2): 0.774
+
+
+#squared_error
+Train rmse: 37.349230610657315
+Validation rmse: 80.98206386299346
+
+훈련 세트 정확도 (r2): 0.943
+테스트 세트 정확도 (r2): 0.774
+
+
+#poisson
+Train rmse: 37.96328439789743
+Validation rmse: 82.88472157592702
+
+훈련 세트 정확도 (r2): 0.941
+테스트 세트 정확도 (r2): 0.763
+
+
+
+
+'friedman_mse', 'squared_error', 'poisson', 'absolute_error'
+<가공식품별>
+#absolute_error
+Train rmse: 60.99171281749601
+Validation rmse: 79.30764341866914
+
+훈련 세트 정확도 (r2): 0.915
+테스트 세트 정확도 (r2): 0.851
+
+
+#friedman_mse
+Train rmse: 56.023148975039966
+Validation rmse: 81.5221374472776
+
+훈련 세트 정확도 (r2): 0.928
+테스트 세트 정확도 (r2): 0.843
+
+
+#squared_error
+Train rmse: 56.023148975039966
+Validation rmse: 81.5221374472776
+
+훈련 세트 정확도 (r2): 0.928
+테스트 세트 정확도 (r2): 0.843
+
+#poisson
+Train rmse: 61.78741619852243
+Validation rmse: 80.20221751182741
+
+훈련 세트 정확도 (r2): 0.912
+테스트 세트 정확도 (r2): 0.848

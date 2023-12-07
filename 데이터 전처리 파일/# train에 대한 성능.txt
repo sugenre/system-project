@@ -1,0 +1,13 @@
+# train에 대한 성능
+
+X_train = y_pred
+y_train = y_true
+
+
+#test에 대한 성능
+X_test = y_pred
+y_val = y_true
+
+
+
+Q1) train_gp = train_gp.agg({'판매수량':['sum']}) 어떤 판매 수량끼기 합해 ..?
